@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./app.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="calc">
+        <h1>Live Calculator</h1>
+        <div class="calculator-box">
+            <div class="top-lines">
+                <input type="text" class="history-line" readonly>
+                <input type="text" value="0" class="input-line" readonly/>
+            </div>
+            <div class="calc-buttons">
+                <div class="line line-1">
+                    <button class="calc-button clear">CLEAR</button>
+                </div>
+                <div class="line line-2">
+                    <button class="calc-button op">%</button>
+                    <button class="calc-button num">7</button>
+                    <button class="calc-button num">8</button>
+                    <button class="calc-button num">9</button>
+                    <button class="calc-button op">+</button>
+                </div>
+                <div class="line line-3">
+                    <button class="calc-button op">/</button>
+                    <button class="calc-button num">4</button>
+                    <button class="calc-button num">5</button>
+                    <button class="calc-button num">6</button>
+                    <button class="calc-button op">-</button>
+                </div>
+                <div class="line line-4">
+                    <button class="calc-button op">.</button>
+                    <button class="calc-button num">3</button>
+                    <button class="calc-button num">2</button>
+                    <button class="calc-button num">1</button>
+                    <button class="calc-button op">x</button>
+                </div>
+                <div class="line line-5">
+                    <button class="calc-button num">0</button>
+                    <button class="calc-button result">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js" charset="utf-8"></script>
+</body>
+</html>
